@@ -1,2 +1,5 @@
+cx-Oracle
+pyodbc
 pandas
-scikit-learn
+tqdm
+pypyodbc
