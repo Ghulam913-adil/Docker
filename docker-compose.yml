@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  anomaly-detection:
+    build: .
+    volumes:
+      - .:/app
+    command: python scripts/train_model.py
